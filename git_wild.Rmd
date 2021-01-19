@@ -41,11 +41,10 @@ ggplot(data = diamonds, aes(x = cut, y = clarity)) +
 ```
 
 ```{r break-it-2}
-#illogical column graph 
-ggplot(data = diamonds, aes(x = cut, y = clarity)) +
-  geom_col() +
-  theme_void() +
-  labs(title = "Pointless Columnssss")
+
+ggplot(data=diamonds, aes(x = carat, y = price))+
+  geom_point()
+
 ```
 
 ## END Discussion 3
