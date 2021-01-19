@@ -41,8 +41,10 @@ ggplot(data = diamonds, aes(x = cut, y = clarity)) +
 ```
 
 ```{r break-it-2}
+
 ggplot(data=diamonds, aes(x = carat, y = price))+
   geom_point()
+
 ```
 
 ## END Discussion 3
